@@ -1,7 +1,5 @@
-const SignedUser = () =>{
-    return(
-        <div>Signed: </div>
-    )
-}
+const SignedUser = ({ signedUser }) => {
+	return <div>Signed: {signedUser}</div>;
+};
 
-export default SignedUser
+export default SignedUser;
